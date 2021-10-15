@@ -17,7 +17,7 @@ const showBill = () => {
 	}
 }
 const countBill = () => {
-	const priceValue = parseInt(price.value)
+	const priceValue = parseFloat(price.value)
 	const peopleValue = parseInt(people.value)
 	const tipValue = parseFloat(tip.value)
 
